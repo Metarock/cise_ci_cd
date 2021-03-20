@@ -12,8 +12,6 @@ it('renders without crashing', () => {
 //this basically says "i expect the result to be 4 when an addition betwee 2 + 2 occurs"
 describe('Addition', () => {
   it('knows that 2 and 2 make 4', () => {
-  expect(2 + 2).toBe(4);
+  expect(2 + 2).toBe(5);
   });
-  });
- 
-
+});
