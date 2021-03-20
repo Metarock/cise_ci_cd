@@ -31,9 +31,5 @@ jobs:
       run: npm test 
     - name: Build 
       run: npm run build --if-present
-    - name: Lint Action
-      uses: wearerequired/lint-action@v1.9.0
-      with:
-        eslint: true
-        auto-fix: true
-        continue-on-error: false
+    - name: run lint
+      run: npm run lint
