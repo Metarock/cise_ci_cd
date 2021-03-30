@@ -19,6 +19,7 @@ class App extends Component{
       <div>
         <p>Count: {this.state.count}</p>
         <button className="increment" onClick={this.increment}>Increment count</button>
+        <p>This is a testing that the deployment works.<p>
       </div>               
     )
   }
