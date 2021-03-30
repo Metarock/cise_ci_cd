@@ -17,6 +17,7 @@ class App extends Component{
   render() {
     return(
       <div>
+        <h1>John Sangalang</h1>
         <p>Count: {this.state.count}</p>
         <button className="increment" onClick={this.increment}>Increment count</button>
       </div>               
